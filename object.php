@@ -15,7 +15,7 @@ class car
 
             $this->brand = $brand;
             echo "Is a string" . "\r\n";
-            
+
         } else {
 
             echo "Is not a string" . "\r\n";
@@ -38,6 +38,8 @@ class car
         return $this->model;
     }
 }
+
+// Just testing
 
 $car1 = new car;
 
